@@ -3,44 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!--💡UPDATE: Change the title to your name-->
-    <title>Rohit Yadav | Portfolio</title>
-      
-    <!--💡UPDATE: Add your favicon here. You can generate one at realfavicongenerator.net-->
+
+    <title>Rohit Yadav | Data Engineer Portfolio</title>
+
     <link rel="icon" type="image/png" href="/favicon-32x32.png">
     <link rel="apple-touch-icon" href="/favicon-32x32.png">
-    
-    <!-- Google Fonts for Elegant Typography -->
+
+    <!-- SEO basics -->
+    <meta name="description" content="Portfolio of Rohit Yadav, Data Engineer specializing in data pipelines, ETL, and analytics solutions.">
+
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
-    
-    <!-- Font Awesome for Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-pVI4E..." crossorigin="anonymous" referrerpolicy="no-referrer">
+
     <!-- Your Stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 
-<!-- HEADER SECTION -->
 <header>
     <div class="container">
-        <!--💡UPDATE: Change to your name and title-->
         <h1>Rohit Yadav</h1>
-        <p>Data Engineer-I</p>
-        <div class="social-links">
-            <!--💡UPDATE: Add your social media links and CV file-->
-            <a href="www.linkedin.com/in/rohit-yadav-1047811a4" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-            <a href="https://github.com/nameisrohit" target="_blank" title="GitHub"></a>
-            <a href="assets/DE_Resume_Latex.pdf" download title="Download CV"><i class="fas fa-file-arrow-down"></i></a>
+        <p>Data Engineer I</p>
+        <div class="social-links" aria-label="Social links">
+            <a href="https://www.linkedin.com/in/rohit-yadav-1047811a4" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/nameisrohit" target="_blank" rel="noopener noreferrer" title="GitHub">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="assets/DE_Resume_Latex.pdf" download title="Download CV">
+                <i class="fas fa-file-arrow-down"></i>
+            </a>
         </div>
     </div>
 </header>
 
-<!-- NAVIGATION -->
-<nav>
+<nav aria-label="Main navigation">
     <div class="container">
         <ul>
             <li><a href="#about">About</a></li>
@@ -51,180 +54,174 @@
     </div>
 </nav>
 
-<!-- ABOUT SECTION -->
-<section id="about" class="section">
-    <div class="container">
-        <h2>About Me</h2>
-        <div class="about-content">
-            <!--💡UPDATE: Change the image to your own profile photo in assets/images/-->
-            <img src="assets/images/profile-placeholder.jpg" alt="Your Name" class="profile-photo">
-            <div class="about-text">
-                <!--💡UPDATE: Write your own 'About Me' text here-->
-                <p> I'm a data professional with expertise in transforming complex datasets into actionable insights. My work focuses on creating interactive visualizations and data-driven stories that help organizations make informed decisions.</p>
-                <p>With experience in Power BI, SQL, and data modeling, I specialize in developing comprehensive reports that reveal hidden patterns and trends in data. This portfolio showcases my projects across various sectors.</p>
+<main>
+    <!-- ABOUT SECTION -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <img src="assets/images/profile-placeholder.jpg" alt="Portrait of Rohit Yadav" class="profile-photo">
+                <div class="about-text">
+                    <p>I am a data professional with expertise in transforming complex datasets into actionable insights. I focus on building reliable data pipelines and data products that support business decision-making.</p>
+                    <p>With experience in Power BI, SQL, Python, and data modeling, I design and implement scalable reporting solutions and dashboards that reveal patterns, trends, and performance drivers across different domains.</p>
+                </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<!-- PROJECTS SECTION -->
-<section id="projects" class="section">
-    <div class="container">
-        <h2>My Projects</h2>
-        <div class="projects-grid">
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects-grid">
 
-            <!--💡UPDATE: Replace this with your own project. Add as many as you like!-->
-            <!-- Project 1 -->
-             <div class="project-card">
-                <!--💡UPDATE: Add a preview image of your project to assets/images/ -->
-                <img src="assets/images/project-placeholder-1.jpg" alt="Project One Preview">
-                <div class="project-card-content">
-                    <h3>Project Title One</h3>
-                    <p>A brief, one or two-sentence description of your project, what it does, and the tools you used.</p>
-                    <div class="project-buttons">
-                        <!--💡UPDATE: Add link to your project's code/documentation on GitHub-->
-                        <a href="[YOUR_GITHUB_PROJECT_URL]" target="_blank" class="btn">Documentation</a>
-                        <!--💡UPDATE: Add link to your live dashboard (e.g., Power BI, Tableau Public)-->
-                        <a href="[YOUR_LIVE_DASHBOARD_URL]" target="_blank" class="btn btn-secondary">View Dashboard</a>
+                <!-- Project 1 -->
+                <article class="project-card">
+                    <img src="assets/images/project-placeholder-1.jpg" alt="Preview of Project One">
+                    <div class="project-card-content">
+                        <h3>Project Title One</h3>
+                        <p>One or two lines describing the problem, your approach, and key tools (e.g., Python, Airflow, PostgreSQL, Power BI).</p>
+                        <div class="project-buttons">
+                            <a href="https://github.com/nameisrohit/PROJECT_REPO_1" target="_blank" rel="noopener noreferrer" class="btn">Code & Docs</a>
+                            <a href="https://app.powerbi.com/..." target="_blank" rel="noopener noreferrer" class="btn btn-secondary">Live Dashboard</a>
+                        </div>
                     </div>
-                </div>
-            </div>
+                </article>
 
-            <!-- Project 2 -->
-            <div class="project-card">
-                <img src="assets/images/project-placeholder-2.jpg" alt="Project Two Preview">
-                <div class="project-card-content">
-                    <h3>Project Title Two</h3>
-                    <p>A brief, one or two-sentence description of your project, what it does, and the tools you used.</p>
-                    <div class="project-buttons">
-                        <a href="[YOUR_GITHUB_PROJECT_URL]" target="_blank" class="btn">Documentation</a>
-                        <a href="[YOUR_LIVE_DASHBOARD_URL]" target="_blank" class="btn btn-secondary">View Dashboard</a>
+                <!-- Project 2 -->
+                <article class="project-card">
+                    <img src="assets/images/project-placeholder-2.jpg" alt="Preview of Project Two">
+                    <div class="project-card-content">
+                        <h3>Project Title Two</h3>
+                        <p>Short summary of the dataset, transformations, and outcomes, highlighting your specific contributions.</p>
+                        <div class="project-buttons">
+                            <a href="https://github.com/nameisrohit/PROJECT_REPO_2" target="_blank" rel="noopener noreferrer" class="btn">Code & Docs</a>
+                            <a href="https://public.tableau.com/..." target="_blank" rel="noopener noreferrer" class="btn btn-secondary">Live Dashboard</a>
+                        </div>
                     </div>
-                </div>
-            </div>
+                </article>
 
-            <!-- Project 3 -->
-            <div class="project-card">
-                <img src="assets/images/project-placeholder-3.jpg" alt="Project Three Preview">
-                <div class="project-card-content">
-                    <h3>Project Title Three</h3>
-                    <p>A brief, one or two-sentence description of your project, what it does, and the tools you used.</p>
-                    <div class="project-buttons">
-                        <a href="[YOUR_GITHUB_PROJECT_URL]" target="_blank" class="btn">Documentation</a>
-                        <a href="[YOUR_LIVE_DASHBOARD_URL]" target="_blank" class="btn btn-secondary">View Dashboard</a>
+                <!-- Project 3 -->
+                <article class="project-card">
+                    <img src="assets/images/project-placeholder-3.jpg" alt="Preview of Project Three">
+                    <div class="project-card-content">
+                        <h3>Project Title Three</h3>
+                        <p>Brief explanation of the architecture (e.g., batch vs streaming), stack, and business impact.</p>
+                        <div class="project-buttons">
+                            <a href="https://github.com/nameisrohit/PROJECT_REPO_3" target="_blank" rel="noopener noreferrer" class="btn">Code & Docs</a>
+                            <a href="https://lookerstudio.google.com/..." target="_blank" rel="noopener noreferrer" class="btn btn-secondary">Live Report</a>
+                        </div>
                     </div>
-                </div>
-            </div>
+                </article>
 
-            <!-- Project 4 -->
-            <div class="project-card">
-                <img src="assets/images/project-placeholder-4.jpg" alt="Project Four Preview">
-                <div class="project-card-content">
-                    <h3>Project Title Four</h3>
-                    <p>A brief, one or two-sentence description of your project, what it does, and the tools you used.</p>
-                    <div class="project-buttons">
-                        <a href="[YOUR_GITHUB_PROJECT_URL]" target="_blank" class="btn">Documentation</a>
-                        <a href="[YOUR_LIVE_DASHBOARD_URL]" target="_blank" class="btn btn-secondary">View Dashboard</a>
+                <!-- Project 4 -->
+                <article class="project-card">
+                    <img src="assets/images/project-placeholder-4.jpg" alt="Preview of Project Four">
+                    <div class="project-card-content">
+                        <h3>Project Title Four</h3>
+                        <p>Focus on performance, optimization, or reliability aspects you handled (e.g., query tuning, partitioning, scheduling).</p>
+                        <div class="project-buttons">
+                            <a href="https://github.com/nameisrohit/PROJECT_REPO_4" target="_blank" rel="noopener noreferrer" class="btn">Code & Docs</a>
+                            <a href="https://..." target="_blank" rel="noopener noreferrer" class="btn btn-secondary">Live Demo</a>
+                        </div>
                     </div>
-                </div>
-            </div>
+                </article>
 
+            </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<!-- SKILLS SECTION -->
-<section id="skills" class="section">
-    <div class="container">
-        <h2>Technical Skillset</h2>
-        <div class="skills-table">
-            
-            <!--💡UPDATE: Customize your skills in each category-->
-            <!-- Column 1: Data Visualization -->
-            <div class="skill-column">
-                <div class="skill-header">
-                    <i class="fas fa-chart-pie"></i>
-                    <h3>Data Visualization</h3>
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2>Technical Skillset</h2>
+            <div class="skills-table">
+
+                <div class="skill-column">
+                    <div class="skill-header">
+                        <i class="fas fa-database"></i>
+                        <h3>Data Engineering</h3>
+                    </div>
+                    <ul class="skill-list">
+                        <li>SQL (PostgreSQL, MySQL)</li>
+                        <li>ETL / ELT Pipelines</li>
+                        <li>Star & Snowflake Schema Design</li>
+                        <li>Batch Processing</li>
+                    </ul>
                 </div>
-                <ul class="skill-list">
-                    <li>Power BI</li>
-                    <li>Tableau</li>
-                    <li>Looker Studio</li>
-                    <li>Excel Dashboards</li>
-                </ul>
-            </div>
 
-            <!-- Column 2: Data Analysis -->
-            <div class="skill-column">
-                <div class="skill-header">
-                    <i class="fas fa-search-plus"></i>
-                    <h3>Data Analysis</h3>
+                <div class="skill-column">
+                    <div class="skill-header">
+                        <i class="fas fa-chart-pie"></i>
+                        <h3>Analytics & BI</h3>
+                    </div>
+                    <ul class="skill-list">
+                        <li>Power BI</li>
+                        <li>Tableau</li>
+                        <li>Looker Studio</li>
+                        <li>Excel Dashboards</li>
+                    </ul>
                 </div>
-                <ul class="skill-list">
-                    <li>SQL</li>
-                    <li>Advanced Excel</li>
-                    <li>Python (Pandas)</li>
-                    <li>Google Sheets</li>
-                </ul>
-            </div>
 
-            <!-- Column 3: Data Modeling & ETL -->
-            <div class="skill-column">
-                <div class="skill-header">
-                    <i class="fas fa-cogs"></i>
-                    <h3>Data Modeling & ETL</h3>
+                <div class="skill-column">
+                    <div class="skill-header">
+                        <i class="fas fa-code"></i>
+                        <h3>Programming</h3>
+                    </div>
+                    <ul class="skill-list">
+                        <li>Python (Pandas, NumPy)</li>
+                        <li>Git & GitHub</li>
+                        <li>Shell Scripting</li>
+                        <li>Basic CI/CD Concepts</li>
+                    </ul>
                 </div>
-                <ul class="skill-list">
-                    <li>Power Query (M)</li>
-                    <li>DAX</li>
-                    <li>Star Schema Design</li>
-                    <li>ETL Processes</li>
-                </ul>
-            </div>
 
+            </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<!-- CONTACT FORM SECTION -->
-<section id="contact" class="section">
-    <div class="container">
-        <h2>Send me a message</h2>
-        
-        <!--💡UPDATE: Go to formsubmit.co and replace the email with your own-->
-        <form action="https://formsubmit.co/your-email@example.com" method="POST" class="contact-form">
-            <p> Interested in collaborating or have questions about my work? I'd love to hear from you!</p>
+    <!-- CONTACT FORM SECTION -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact</h2>
 
-            <!-- Form Fields -->
-            <div class="form-group">
-                <label for="name">Name</label>
-                <input type="text" name="name" id="name" placeholder="Your name" required>
-            </div>
-            <div class="form-group">
-                <label for="email">Email</label>
-                <input type="email" name="email" id="email" placeholder="Your email" required>
-            </div>
-            <div class="form-group">
-                <label for="subject">Subject</label>
-                <input type="text" name="subject" id="subject" placeholder="Subject" required>
-            </div>
-            <div class="form-group">
-                <label for="message">Message</label>
-                <textarea name="message" id="message" rows="6" placeholder="Your message" required></textarea>
-            </div>
-            
-            <!-- Submit Button -->
-            <button type="submit" class="btn">Send Message</button>
+            <form action="https://formsubmit.co/your-email@example.com" method="POST" class="contact-form">
+                <!-- Formsubmit config -->
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_subject" value="New message from portfolio site">
+                <input type="hidden" name="_template" value="table">
 
-        </form>
-    </div>
-</section>
+                <p>If you would like to discuss an opportunity, collaboration, or a project, feel free to reach out using the form below.</p>
 
-<!-- FOOTER -->
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" placeholder="Your name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Your email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" name="subject" id="subject" placeholder="Subject" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" rows="6" placeholder="Your message" required></textarea>
+                </div>
+
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+</main>
+
 <footer>
     <div class="container">
-        <!--💡UPDATE: Change the year and your name-->
-        <p>&copy; 2025 Your Name. All rights reserved.</p>
+        <p>&copy; 2026 Rohit Yadav. All rights reserved.</p>
     </div>
 </footer>
 
