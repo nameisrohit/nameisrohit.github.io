@@ -4,13 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Rohit Yadav | Data Engineer Portfolio</title>
+    <title>Rohit Yadav | Data Engineer</title>
+    <meta name="description" content="Rohit Yadav – Data Engineer building reliable data pipelines, analytics solutions, and dashboards. Explore projects, skills, and contact details.">
 
     <link rel="icon" type="image/png" href="/favicon-32x32.png">
     <link rel="apple-touch-icon" href="/favicon-32x32.png">
-
-    <!-- SEO basics -->
-    <meta name="description" content="Portfolio of Rohit Yadav, Data Engineer specializing in data pipelines, ETL, and analytics solutions.">
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,110 +18,138 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-pVI4E..." crossorigin="anonymous" referrerpolicy="no-referrer">
 
-    <!-- Your Stylesheet -->
+    <!-- Styles -->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 
-<header>
-    <div class="container">
-        <h1>Rohit Yadav</h1>
-        <p>Data Engineer I</p>
-        <div class="social-links" aria-label="Social links">
-            <a href="https://www.linkedin.com/in/rohit-yadav-1047811a4" target="_blank" rel="noopener noreferrer" title="LinkedIn">
-                <i class="fab fa-linkedin"></i>
-            </a>
-            <a href="https://github.com/nameisrohit" target="_blank" rel="noopener noreferrer" title="GitHub">
-                <i class="fab fa-github"></i>
-            </a>
-            <a href="assets/DE_Resume_Latex.pdf" download title="Download CV">
-                <i class="fas fa-file-arrow-down"></i>
-            </a>
-        </div>
-    </div>
-</header>
-
-<nav aria-label="Main navigation">
-    <div class="container">
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </div>
-</nav>
-
-<main>
-    <!-- ABOUT SECTION -->
-    <section id="about" class="section">
-        <div class="container">
-            <h2>About Me</h2>
-            <div class="about-content">
-                <img src="assets/images/profile-placeholder.jpg" alt="Portrait of Rohit Yadav" class="profile-photo">
-                <div class="about-text">
-                    <p>I am a data professional with expertise in transforming complex datasets into actionable insights. I focus on building reliable data pipelines and data products that support business decision-making.</p>
-                    <p>With experience in Power BI, SQL, Python, and data modeling, I design and implement scalable reporting solutions and dashboards that reveal patterns, trends, and performance drivers across different domains.</p>
-                </div>
+<!-- HEADER / HERO -->
+<header class="hero" id="top">
+    <div class="container hero-inner">
+        <div class="hero-text">
+            <p class="hero-kicker">Hi, I’m Rohit 👋</p>
+            <h1>Data Engineer focused on reliable pipelines and insightful analytics.</h1>
+            <p class="hero-subtitle">
+                I design and build data solutions that move, transform, and surface information
+                so teams can make confident decisions.
+            </p>
+            <div class="hero-actions">
+                <a href="#projects" class="btn">View Projects</a>
+                <a href="#contact" class="btn btn-secondary">Contact Me</a>
+            </div>
+            <div class="hero-meta">
+                <span><i class="fas fa-location-dot"></i> Dublin, Ireland</span>
+                <span><i class="fas fa-briefcase"></i> Open to Data Engineer / Analytics Engineer roles</span>
             </div>
         </div>
-    </section>
+        <div class="hero-photo">
+            <img src="assets/images/profile-placeholder.jpg" alt="Portrait of Rohit Yadav">
+        </div>
+    </div>
 
-    <!-- PROJECTS SECTION -->
-    <section id="projects" class="section">
+    <nav class="main-nav" aria-label="Main navigation">
+        <div class="container nav-inner">
+            <a href="#top" class="logo">RY</a>
+            <ul class="nav-links">
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-social">
+                <a href="https://www.linkedin.com/in/rohit-yadav-1047811a4" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/nameisrohit" target="_blank" rel="noopener noreferrer" title="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="assets/DE_Resume_Latex.pdf" download title="Download CV">
+                    <i class="fas fa-file-arrow-down"></i>
+                </a>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<main>
+
+    <!-- HIGHLIGHTED PROJECTS -->
+    <section id="projects" class="section section-alt">
         <div class="container">
-            <h2>Projects</h2>
+            <h2>Selected Projects</h2>
+            <p class="section-intro">
+                A snapshot of end‑to‑end data work: ingestion, transformation, modeling, and reporting.
+            </p>
+
             <div class="projects-grid">
 
                 <!-- Project 1 -->
                 <article class="project-card">
-                    <img src="assets/images/project-placeholder-1.jpg" alt="Preview of Project One">
-                    <div class="project-card-content">
-                        <h3>Project Title One</h3>
-                        <p>One or two lines describing the problem, your approach, and key tools (e.g., Python, Airflow, PostgreSQL, Power BI).</p>
-                        <div class="project-buttons">
-                            <a href="https://github.com/nameisrohit/PROJECT_REPO_1" target="_blank" rel="noopener noreferrer" class="btn">Code & Docs</a>
-                            <a href="https://app.powerbi.com/..." target="_blank" rel="noopener noreferrer" class="btn btn-secondary">Live Dashboard</a>
-                        </div>
+                    <div class="project-badge">Data Pipeline</div>
+                    <h3>Batch ETL Pipeline for Sales Analytics</h3>
+                    <p>
+                        Built a scheduled ETL pipeline that ingests CSV and API data into PostgreSQL,
+                        applies data quality checks, and powers a Power BI sales performance dashboard.
+                    </p>
+                    <ul class="project-tags">
+                        <li>Python</li>
+                        <li>Airflow</li>
+                        <li>PostgreSQL</li>
+                        <li>Power BI</li>
+                    </ul>
+                    <div class="project-links">
+                        <a href="https://github.com/nameisrohit/REPO_SALES_PIPELINE" target="_blank" rel="noopener noreferrer">
+                            <i class="fas fa-code"></i> Code
+                        </a>
+                        <a href="https://app.powerbi.com/..." target="_blank" rel="noopener noreferrer">
+                            <i class="fas fa-chart-line"></i> Live Dashboard
+                        </a>
                     </div>
                 </article>
 
                 <!-- Project 2 -->
                 <article class="project-card">
-                    <img src="assets/images/project-placeholder-2.jpg" alt="Preview of Project Two">
-                    <div class="project-card-content">
-                        <h3>Project Title Two</h3>
-                        <p>Short summary of the dataset, transformations, and outcomes, highlighting your specific contributions.</p>
-                        <div class="project-buttons">
-                            <a href="https://github.com/nameisrohit/PROJECT_REPO_2" target="_blank" rel="noopener noreferrer" class="btn">Code & Docs</a>
-                            <a href="https://public.tableau.com/..." target="_blank" rel="noopener noreferrer" class="btn btn-secondary">Live Dashboard</a>
-                        </div>
+                    <div class="project-badge">Analytics</div>
+                    <h3>Customer Churn Insights Dashboard</h3>
+                    <p>
+                        Modeled customer lifecycle data and created an interactive dashboard to track churn,
+                        retention cohorts, and revenue impact across key segments.
+                    </p>
+                    <ul class="project-tags">
+                        <li>SQL</li>
+                        <li>Dimensional Modeling</li>
+                        <li>Power BI</li>
+                    </ul>
+                    <div class="project-links">
+                        <a href="https://github.com/nameisrohit/REPO_CHURN_ANALYSIS" target="_blank" rel="noopener noreferrer">
+                            <i class="fas fa-code"></i> Code
+                        </a>
+                        <a href="https://app.powerbi.com/..." target="_blank" rel="noopener noreferrer">
+                            <i class="fas fa-chart-pie"></i> Live Report
+                        </a>
                     </div>
                 </article>
 
                 <!-- Project 3 -->
                 <article class="project-card">
-                    <img src="assets/images/project-placeholder-3.jpg" alt="Preview of Project Three">
-                    <div class="project-card-content">
-                        <h3>Project Title Three</h3>
-                        <p>Brief explanation of the architecture (e.g., batch vs streaming), stack, and business impact.</p>
-                        <div class="project-buttons">
-                            <a href="https://github.com/nameisrohit/PROJECT_REPO_3" target="_blank" rel="noopener noreferrer" class="btn">Code & Docs</a>
-                            <a href="https://lookerstudio.google.com/..." target="_blank" rel="noopener noreferrer" class="btn btn-secondary">Live Report</a>
-                        </div>
-                    </div>
-                </article>
-
-                <!-- Project 4 -->
-                <article class="project-card">
-                    <img src="assets/images/project-placeholder-4.jpg" alt="Preview of Project Four">
-                    <div class="project-card-content">
-                        <h3>Project Title Four</h3>
-                        <p>Focus on performance, optimization, or reliability aspects you handled (e.g., query tuning, partitioning, scheduling).</p>
-                        <div class="project-buttons">
-                            <a href="https://github.com/nameisrohit/PROJECT_REPO_4" target="_blank" rel="noopener noreferrer" class="btn">Code & Docs</a>
-                            <a href="https://..." target="_blank" rel="noopener noreferrer" class="btn btn-secondary">Live Demo</a>
-                        </div>
+                    <div class="project-badge">Automation</div>
+                    <h3>Reporting Automation for Survey Data</h3>
+                    <p>
+                        Automated cleaning and aggregation of survey data, publishing refreshed Excel and PDF
+                        reports on a schedule for stakeholders.
+                    </p>
+                    <ul class="project-tags">
+                        <li>Python (Pandas)</li>
+                        <li>Excel</li>
+                        <li>Scheduling</li>
+                    </ul>
+                    <div class="project-links">
+                        <a href="https://github.com/nameisrohit/REPO_SURVEY_AUTOMATION" target="_blank" rel="noopener noreferrer">
+                            <i class="fas fa-code"></i> Code
+                        </a>
+                        <a href="#" target="_blank" rel="noopener noreferrer">
+                            <i class="fas fa-file-pdf"></i> Sample Output
+                        </a>
                     </div>
                 </article>
 
@@ -131,10 +157,11 @@
         </div>
     </section>
 
-    <!-- SKILLS SECTION -->
+    <!-- SKILLS -->
     <section id="skills" class="section">
         <div class="container">
-            <h2>Technical Skillset</h2>
+            <h2>Technical Skills</h2>
+
             <div class="skills-table">
 
                 <div class="skill-column">
@@ -145,34 +172,34 @@
                     <ul class="skill-list">
                         <li>SQL (PostgreSQL, MySQL)</li>
                         <li>ETL / ELT Pipelines</li>
-                        <li>Star & Snowflake Schema Design</li>
+                        <li>Star & Snowflake Schemas</li>
                         <li>Batch Processing</li>
                     </ul>
                 </div>
 
                 <div class="skill-column">
                     <div class="skill-header">
-                        <i class="fas fa-chart-pie"></i>
+                        <i class="fas fa-chart-bar"></i>
                         <h3>Analytics & BI</h3>
                     </div>
                     <ul class="skill-list">
-                        <li>Power BI</li>
-                        <li>Tableau</li>
-                        <li>Looker Studio</li>
+                        <li>Power BI, Tableau, Looker Studio</li>
+                        <li>DAX & Power Query</li>
                         <li>Excel Dashboards</li>
+                        <li>A/B & Cohort Analysis</li>
                     </ul>
                 </div>
 
                 <div class="skill-column">
                     <div class="skill-header">
                         <i class="fas fa-code"></i>
-                        <h3>Programming</h3>
+                        <h3>Programming & Tools</h3>
                     </div>
                     <ul class="skill-list">
                         <li>Python (Pandas, NumPy)</li>
                         <li>Git & GitHub</li>
-                        <li>Shell Scripting</li>
-                        <li>Basic CI/CD Concepts</li>
+                        <li>Shell scripting</li>
+                        <li>Linux basics</li>
                     </ul>
                 </div>
 
@@ -180,52 +207,103 @@
         </div>
     </section>
 
-    <!-- CONTACT FORM SECTION -->
+    <!-- ABOUT -->
+    <section id="about" class="section section-alt">
+        <div class="container about-layout">
+            <div>
+                <h2>About Me</h2>
+                <p>
+                    I’m a data engineer with a background in data analytics, comfortable working across
+                    ingestion, transformation, and reporting layers.
+                </p>
+                <p>
+                    Recently, I’ve been focusing on building repeatable data pipelines, improving data quality,
+                    and partnering closely with analysts to ensure that models and dashboards answer real
+                    business questions.
+                </p>
+                <p>
+                    I enjoy taking ambiguous data problems, breaking them into clear steps, and delivering
+                    solutions that are tested, documented, and easy to extend.
+                </p>
+            </div>
+            <div class="about-stats">
+                <div class="stat-card">
+                    <span class="stat-label">Core Focus</span>
+                    <span class="stat-value">Data Engineering & Analytics</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-label">Tools I use most</span>
+                    <span class="stat-value">Python, SQL, Power BI</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-label">Currently</span>
+                    <span class="stat-value">Exploring cloud data stacks & dbt</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
     <section id="contact" class="section">
         <div class="container">
-            <h2>Contact</h2>
+            <h2>Let’s Connect</h2>
+            <p class="section-intro">
+                If you’re hiring for data engineering or analytics roles, or want to discuss a project,
+                feel free to reach out.
+            </p>
 
-            <form action="https://formsubmit.co/your-email@example.com" method="POST" class="contact-form">
-                <!-- Formsubmit config -->
-                <input type="hidden" name="_captcha" value="false">
-                <input type="hidden" name="_subject" value="New message from portfolio site">
-                <input type="hidden" name="_template" value="table">
+            <div class="contact-layout">
+                <form action="https://formsubmit.co/your-email@example.com" method="POST" class="contact-form">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_subject" value="New message from portfolio site">
+                    <input type="hidden" name="_template" value="table">
 
-                <p>If you would like to discuss an opportunity, collaboration, or a project, feel free to reach out using the form below.</p>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name" placeholder="Your name" required>
+                    </div>
 
-                <div class="form-group">
-                    <label for="name">Name</label>
-                    <input type="text" name="name" id="name" placeholder="Your name" required>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="Your email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" name="subject" id="subject" placeholder="Subject" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" rows="5" placeholder="Your message" required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+
+                <div class="contact-direct">
+                    <h3>Direct Contact</h3>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i> youremail@example.com</li>
+                        <li><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/rohit-yadav-1047811a4" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+                        <li><i class="fab fa-github"></i> <a href="https://github.com/nameisrohit" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+                    </ul>
                 </div>
+            </div>
 
-                <div class="form-group">
-                    <label for="email">Email</label>
-                    <input type="email" name="email" id="email" placeholder="Your email" required>
-                </div>
-
-                <div class="form-group">
-                    <label for="subject">Subject</label>
-                    <input type="text" name="subject" id="subject" placeholder="Subject" required>
-                </div>
-
-                <div class="form-group">
-                    <label for="message">Message</label>
-                    <textarea name="message" id="message" rows="6" placeholder="Your message" required></textarea>
-                </div>
-
-                <button type="submit" class="btn">Send Message</button>
-            </form>
         </div>
     </section>
 </main>
 
 <footer>
-    <div class="container">
+    <div class="container footer-inner">
         <p>&copy; 2026 Rohit Yadav. All rights reserved.</p>
+        <a href="#top" class="back-to-top">
+            <i class="fas fa-arrow-up"></i> Back to top
+        </a>
     </div>
 </footer>
 
 <script src="assets/js/main.js"></script>
-
 </body>
 </html>
