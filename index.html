@@ -3,460 +3,189 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Rohit Yadav | Data Engineer</title>
-  <meta name="description" content="Rohit Yadav — Data Engineer with 2+ years building scalable ETL pipelines. Python, SQL, Spark, dbt, AWS." />
-
+  <title>Rohit Yadav — Data Engineer</title>
+  <meta name="description" content="Rohit Yadav — Data Engineer. 2+ years building scalable pipelines. Python, SQL, Spark, dbt, AWS. Dublin." />
   <link rel="icon" type="image/png" href="/analystics.png" />
-
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@300;400;500;600&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" crossorigin="anonymous" />
   <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
-
-<header class="site-header" id="top">
-  <div class="container header-inner">
-    <a href="#top" class="logo">RY</a>
-    <nav class="main-nav" aria-label="Main navigation">
-      <ul class="nav-links">
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#education">Education</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-    <button class="nav-toggle" aria-label="Toggle navigation">
-      <span></span><span></span><span></span>
-    </button>
+<div class="cursor-glow" id="cursorGlow"></div>
+<nav class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#" class="nav-logo">rohit<span>.py</span></a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#experience">experience</a></li>
+      <li><a href="#projects">projects</a></li>
+      <li><a href="#skills">skills</a></li>
+      <li><a href="#contact">contact</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu"><span></span><span></span></button>
   </div>
-</header>
-
+</nav>
 <main>
-
-  <!-- HERO -->
-  <section class="hero">
-    <div class="container hero-inner">
-      <div class="hero-text">
-        <p class="hero-kicker">Hi, I'm Rohit 👋</p>
-        <h1>I build pipelines that turn messy data into systems teams can trust.</h1>
-        <p class="hero-subtitle">
-          Data Engineer with 2+ years at Ipsos designing scalable ETL workflows processing 5M+ records
-          across global datasets. AWS certified. Master's in Data Analytics. Based in Dublin.
-        </p>
-        <div class="hero-tags">
-          <span class="tag">Python</span>
-          <span class="tag">SQL</span>
-          <span class="tag">Apache Spark</span>
-          <span class="tag">dbt</span>
-          <span class="tag">AWS</span>
-          <span class="tag">Airflow</span>
-          <span class="tag">ETL / ELT</span>
+<section class="hero" id="hero">
+  <div class="container">
+    <div class="hero-grid">
+      <div class="hero-left">
+        <div class="hero-badge reveal"><span class="pulse"></span> Open to opportunities</div>
+        <h1 class="hero-title reveal">I build the<br/><em>data pipelines</em><br/>that power decisions.</h1>
+        <p class="hero-sub reveal">Data Engineer with 2+ years at Ipsos, processing 5M+ records across global datasets. I design ETL systems in Python, SQL, and Spark that teams actually rely on. AWS certified. Master's in Data Analytics. Based in Dublin.</p>
+        <div class="hero-cta reveal">
+          <a href="#projects" class="btn btn-dark">See my work <i class="fas fa-arrow-down"></i></a>
+          <a href="#contact" class="btn btn-ghost">Let's talk</a>
         </div>
-        <div class="hero-actions">
-          <a href="#projects" class="btn">View Projects</a>
-          <a href="#contact" class="btn btn-secondary">Contact Me</a>
-        </div>
-        <div class="hero-meta">
-          <span><i class="fas fa-location-dot"></i> Dublin, Ireland</span>
-          <span><i class="fas fa-briefcase"></i> Open to Data Engineer roles</span>
-        </div>
-        <div class="hero-social">
-          <a href="https://www.linkedin.com/in/rohit-s-yadav/" target="_blank" rel="noopener noreferrer" title="LinkedIn">
-            <i class="fab fa-linkedin"></i>
-          </a>
-          <a href="https://github.com/nameisrohit" target="_blank" rel="noopener noreferrer" title="GitHub">
-            <i class="fab fa-github"></i>
-          </a>
-          <a href="mailto:rohit.yadav.analytics@gmail.com" title="Email">
-            <i class="fas fa-envelope"></i>
-          </a>
-          <a href="assets/DE_Resume_Latex.pdf" download title="Download CV">
-            <i class="fas fa-file-arrow-down"></i>
-          </a>
+        <div class="hero-social reveal">
+          <a href="https://www.linkedin.com/in/rohit-s-yadav/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://github.com/nameisrohit" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+          <a href="mailto:rohit.yadav.analytics@gmail.com"><i class="fas fa-envelope"></i></a>
+          <a href="assets/DE_Resume_Latex.pdf" download><i class="fas fa-file-arrow-down"></i></a>
         </div>
       </div>
-
-      <div class="hero-photo">
-        <div class="photo-wrapper">
-          <img src="assets/images/profile-placeholder.jpg" alt="Portrait of Rohit Yadav" />
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- STATS RIBBON -->
-  <section class="section stats-ribbon">
-    <div class="container">
-      <div class="stats-grid">
-        <div class="stat-block">
-          <span class="stat-number">5M+</span>
-          <span class="stat-label">Records processed</span>
-        </div>
-        <div class="stat-block">
-          <span class="stat-number">40%</span>
-          <span class="stat-label">Reporting time saved</span>
-        </div>
-        <div class="stat-block">
-          <span class="stat-number">15+</span>
-          <span class="stat-label">Datasets managed</span>
-        </div>
-        <div class="stat-block">
-          <span class="stat-number">8</span>
-          <span class="stat-label">Countries collaborated</span>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- EXPERIENCE -->
-  <section id="experience" class="section section-alt">
-    <div class="container">
-      <h2>Experience</h2>
-      <p class="section-intro">Building data systems that scale — from pipeline design to cloud migration.</p>
-
-      <div class="exp-card">
-        <div class="exp-header">
-          <div>
-            <h3 class="exp-role">Data Engineer-I</h3>
-            <span class="exp-company">Ipsos</span>
-          </div>
-          <span class="exp-date">Aug 2022 — Sep 2024</span>
-        </div>
-        <p class="exp-location"><i class="fas fa-location-dot"></i> Mumbai, India (supporting global operations)</p>
-        <ul class="exp-bullets">
-          <li>Designed and maintained ETL pipelines processing 5M+ records from global market research surveys using Python, SQL, and Apache Spark</li>
-          <li>Implemented dbt models to standardise data transformations, improving documentation, testing, and repeatability across the analytics layer</li>
-          <li>Automated reporting workflows that reduced manual data preparation time by 40%, freeing analysts to focus on insights</li>
-          <li>Built data validation frameworks across 15+ datasets, reducing downstream errors by 25%</li>
-          <li>Supported migration of on-premise data infrastructure to AWS (S3, Lambda, EC2), improving scalability and reducing costs</li>
-          <li>Collaborated with cross-functional teams across 8 countries to standardise data collection and transformation processes</li>
-          <li>Developed reusable Spark jobs and Python scripts adopted as the team's core data processing toolkit</li>
-        </ul>
-      </div>
-
-      <div class="exp-card">
-        <div class="exp-header">
-          <div>
-            <h3 class="exp-role">Sales Assistant</h3>
-            <span class="exp-company">Eurospar</span>
-          </div>
-          <span class="exp-date">May 2025 — Present</span>
-        </div>
-        <p class="exp-location"><i class="fas fa-location-dot"></i> Dublin, Ireland</p>
-        <ul class="exp-bullets">
-          <li>Managing inventory and customer operations while completing a Master's in Data Analytics</li>
-          <li>Developed strong communication and problem-solving skills in a fast-paced, customer-facing environment</li>
-        </ul>
-      </div>
-    </div>
-  </section>
-
-  <!-- PROJECTS -->
-  <section id="projects" class="section">
-    <div class="container">
-      <h2>Selected Projects</h2>
-      <p class="section-intro">
-        End-to-end data work — ingestion, transformation, modelling, and reporting.
-      </p>
-
-      <div class="projects-grid">
-
-        <article class="project-card">
-          <div class="project-badge">Data Pipeline</div>
-          <h3>Web Retail Revenue Data Warehouse & BI Solution</h3>
-          <p>
-            Built an end-to-end data warehouse and BI solution for online retail sales — star-schema
-            design, ETL orchestration with SSIS, and interactive Tableau dashboards.
-          </p>
-          <ul class="project-tags">
-            <li>SQL Server</li>
-            <li>SSIS</li>
-            <li>Tableau</li>
-            <li>Star Schema</li>
-          </ul>
-          <div class="project-links">
-            <a href="https://github.com/nameisrohit/Web_Retail_Data_Warehouse" target="_blank" rel="noopener noreferrer">
-              <i class="fas fa-code"></i> Code
-            </a>
-          </div>
-        </article>
-
-        <article class="project-card">
-          <div class="project-badge">Analytics</div>
-          <h3>Customer Churn Insights Dashboard</h3>
-          <p>
-            Modelled customer lifecycle data and created interactive Power BI dashboards tracking churn,
-            retention cohorts, and revenue impact across key segments.
-          </p>
-          <ul class="project-tags">
-            <li>SQL</li>
-            <li>Dimensional Modelling</li>
-            <li>Power BI</li>
-            <li>DAX</li>
-          </ul>
-          <div class="project-links">
-            <a href="https://github.com/nameisrohit" target="_blank" rel="noopener noreferrer">
-              <i class="fas fa-code"></i> Code
-            </a>
-          </div>
-        </article>
-
-        <article class="project-card">
-          <div class="project-badge">Automation</div>
-          <h3>Survey Data Reporting Automation</h3>
-          <p>
-            Automated cleaning and aggregation of survey data using Python and Pandas,
-            publishing refreshed Excel and PDF reports on a schedule for stakeholders.
-          </p>
-          <ul class="project-tags">
-            <li>Python</li>
-            <li>Pandas</li>
-            <li>Automation</li>
-            <li>Excel</li>
-          </ul>
-          <div class="project-links">
-            <a href="https://github.com/nameisrohit" target="_blank" rel="noopener noreferrer">
-              <i class="fas fa-code"></i> Code
-            </a>
-          </div>
-        </article>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- SKILLS -->
-  <section id="skills" class="section section-alt">
-    <div class="container">
-      <h2>Technical Skills</h2>
-
-      <div class="skills-grid">
-        <div class="skill-column">
-          <div class="skill-header">
-            <i class="fas fa-database"></i>
-            <h3>Data Engineering</h3>
-          </div>
-          <ul class="skill-list">
-            <li>Apache Spark / PySpark</li>
-            <li>ETL / ELT Pipelines</li>
-            <li>dbt (data build tool)</li>
-            <li>Apache Airflow</li>
-            <li>Apache Kafka</li>
-            <li>Data Modelling (Star / Snowflake)</li>
-            <li>Data Quality Frameworks</li>
-          </ul>
-        </div>
-
-        <div class="skill-column">
-          <div class="skill-header">
-            <i class="fas fa-cloud"></i>
-            <h3>Cloud & DevOps</h3>
-          </div>
-          <ul class="skill-list">
-            <li>AWS (S3, EC2, Lambda, Redshift)</li>
-            <li>Databricks (familiar)</li>
-            <li>Git & GitHub</li>
-            <li>CI/CD basics</li>
-            <li>Linux / Shell scripting</li>
-          </ul>
-        </div>
-
-        <div class="skill-column">
-          <div class="skill-header">
-            <i class="fas fa-code"></i>
-            <h3>Programming</h3>
-          </div>
-          <ul class="skill-list">
-            <li>Python (Pandas, NumPy)</li>
-            <li>SQL (PostgreSQL, MySQL)</li>
-            <li>PySpark</li>
-            <li>Scala (basic)</li>
-          </ul>
-        </div>
-
-        <div class="skill-column">
-          <div class="skill-header">
-            <i class="fas fa-chart-bar"></i>
-            <h3>Analytics & BI</h3>
-          </div>
-          <ul class="skill-list">
-            <li>Power BI / DAX</li>
-            <li>Tableau</li>
-            <li>Looker Studio</li>
-            <li>Data Visualisation</li>
-            <li>A/B Testing (conceptual)</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- EDUCATION & CERTIFICATIONS -->
-  <section id="education" class="section">
-    <div class="container">
-      <h2>Education</h2>
-      <p class="section-intro">Combining computer science fundamentals with specialised data training.</p>
-
-      <div class="edu-grid">
-        <div class="edu-card">
-          <div class="edu-icon"><i class="fas fa-graduation-cap"></i></div>
-          <h3>Master's in Data Analytics</h3>
-          <p class="edu-school">Dublin Business School</p>
-          <p class="edu-date">Jan 2025 — Jan 2026</p>
-          <p class="edu-detail">Pipeline Architecture, Machine Learning, Cloud Computing, Data Governance</p>
-        </div>
-        <div class="edu-card">
-          <div class="edu-icon"><i class="fas fa-graduation-cap"></i></div>
-          <h3>BSc Computer Science</h3>
-          <p class="edu-school">Mumbai University</p>
-          <p class="edu-date">Aug 2019 — May 2022</p>
-          <p class="edu-detail">Software Engineering, Databases, Data Structures, Algorithms</p>
-        </div>
-      </div>
-
-      <div class="certs-section">
-        <h2>Certifications</h2>
-        <div class="certs-grid">
-          <div class="cert-card">
-            <i class="fab fa-aws"></i>
-            <span>AWS Certified Cloud Practitioner</span>
-          </div>
-          <div class="cert-card">
-            <i class="fab fa-java"></i>
-            <span>Core Java</span>
-          </div>
-          <div class="cert-card">
-            <i class="fas fa-stream"></i>
-            <span>Streaming Data Pipelines — Apache Kafka</span>
-          </div>
-          <div class="cert-card">
-            <i class="fas fa-chart-line"></i>
-            <span>Career Skills in Data Analytics</span>
-          </div>
-          <div class="cert-card">
-            <i class="fas fa-search"></i>
-            <span>Root Cause Analysis for Business Problems</span>
-          </div>
-          <div class="cert-card">
-            <i class="fas fa-brain"></i>
-            <span>Non-Technical Skills of Effective Data Scientists</span>
+      <div class="hero-right reveal">
+        <div class="terminal">
+          <div class="terminal-bar"><span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span><span class="terminal-title">pipeline_status.py</span></div>
+          <div class="terminal-body">
+            <div class="line"><span class="comment"># rohit_yadav.pipeline_stats</span></div>
+            <div class="line"><span class="keyword">records_processed</span> = <span class="string">"5M+"</span></div>
+            <div class="line"><span class="keyword">time_saved</span> = <span class="string">"40%"</span></div>
+            <div class="line"><span class="keyword">datasets_managed</span> = <span class="number">15</span></div>
+            <div class="line"><span class="keyword">countries</span> = <span class="number">8</span></div>
+            <div class="line"><span class="keyword">error_reduction</span> = <span class="string">"25%"</span></div>
+            <div class="line">&nbsp;</div>
+            <div class="line"><span class="keyword">stack</span> = [</div>
+            <div class="line indent"><span class="string">"Python"</span>, <span class="string">"SQL"</span>, <span class="string">"Spark"</span>,</div>
+            <div class="line indent"><span class="string">"dbt"</span>, <span class="string">"AWS"</span>, <span class="string">"Airflow"</span></div>
+            <div class="line">]</div>
+            <div class="line">&nbsp;</div>
+            <div class="line"><span class="keyword">status</span> = <span class="string">"ready_to_build"</span> <span class="cursor-blink">|</span></div>
           </div>
         </div>
       </div>
     </div>
-  </section>
-
-  <!-- ABOUT -->
-  <section id="about" class="section section-alt">
-    <div class="container about-grid">
-      <div>
-        <h2>About Me</h2>
-        <p>
-          I'm a data engineer who enjoys taking ambiguous data problems, breaking them into clear steps,
-          and delivering solutions that are tested, documented, and easy to extend.
-        </p>
-        <p>
-          Over two years at Ipsos, I built ETL pipelines that processed millions of records across global
-          survey datasets, automated reporting that saved my team hours every week, and helped migrate
-          infrastructure to the cloud. I recently completed my Master's in Data Analytics at Dublin Business School.
-        </p>
-        <p>
-          I'm currently looking for Data Engineer or Data Analyst roles in Dublin and remote.
-          If you're working on interesting data problems, I'd love to connect.
-        </p>
-      </div>
-      <div class="about-stats">
-        <div class="stat-card">
-          <span class="stat-label">Core Focus</span>
-          <span class="stat-value">Data Engineering & Analytics</span>
-        </div>
-        <div class="stat-card">
-          <span class="stat-label">Primary Tools</span>
-          <span class="stat-value">Python, SQL, Spark, dbt, AWS</span>
-        </div>
-        <div class="stat-card">
-          <span class="stat-label">Currently Exploring</span>
-          <span class="stat-value">Databricks, Airflow, Kafka</span>
-        </div>
-        <div class="stat-card">
-          <span class="stat-label">Certification</span>
-          <span class="stat-value">AWS Certified Cloud Practitioner</span>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- CONTACT -->
-  <section id="contact" class="section">
-    <div class="container">
-      <h2>Let's Connect</h2>
-      <p class="section-intro">
-        Open to data engineer and data analyst roles in Dublin and remote.
-        Happy to chat about data problems, collaborations, or opportunities.
-      </p>
-
-      <div class="contact-grid">
-        <form action="https://formsubmit.co/rohit.yadav.analytics@gmail.com" method="POST" class="contact-form">
-          <input type="hidden" name="_captcha" value="false" />
-          <input type="hidden" name="_subject" value="New message from portfolio site" />
-          <input type="hidden" name="_template" value="table" />
-
-          <div class="form-group">
-            <label for="name">Name</label>
-            <input id="name" name="name" type="text" required placeholder="Your name" />
-          </div>
-
-          <div class="form-group">
-            <label for="email">Email</label>
-            <input id="email" name="email" type="email" required placeholder="you@company.com" />
-          </div>
-
-          <div class="form-group">
-            <label for="subject">Subject</label>
-            <input id="subject" name="subject" type="text" required placeholder="What's this about?" />
-          </div>
-
-          <div class="form-group">
-            <label for="message">Message</label>
-            <textarea id="message" name="message" rows="5" required placeholder="Tell me about the role or project..."></textarea>
-          </div>
-
-          <button type="submit" class="btn">Send Message</button>
-        </form>
-
-        <div class="contact-direct">
-          <h3>Direct Contact</h3>
-          <ul>
-            <li><i class="fas fa-envelope"></i> <a href="mailto:rohit.yadav.analytics@gmail.com">rohit.yadav.analytics@gmail.com</a></li>
-            <li><i class="fas fa-phone"></i> +353 899706295</li>
-            <li><i class="fab fa-linkedin"></i>
-              <a href="https://www.linkedin.com/in/rohit-s-yadav/" target="_blank" rel="noopener noreferrer">linkedin.com/in/rohit-s-yadav</a>
-            </li>
-            <li><i class="fab fa-github"></i>
-              <a href="https://github.com/nameisrohit" target="_blank" rel="noopener noreferrer">github.com/nameisrohit</a>
-            </li>
-            <li><i class="fas fa-location-dot"></i> Dublin, Ireland</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-</main>
-
-<footer class="site-footer">
-  <div class="container footer-inner">
-    <p>&copy; 2026 Rohit Yadav. Built with care in Dublin.</p>
-    <a href="#top" class="back-to-top">
-      <i class="fas fa-arrow-up"></i> Back to top
-    </a>
   </div>
-</footer>
-
+  <div class="hero-scroll"><span>scroll</span><div class="scroll-line"></div></div>
+</section>
+<div class="marquee"><div class="marquee-track"><span>Python</span><span class="sep">/</span><span>SQL</span><span class="sep">/</span><span>Apache Spark</span><span class="sep">/</span><span>dbt</span><span class="sep">/</span><span>AWS</span><span class="sep">/</span><span>Airflow</span><span class="sep">/</span><span>ETL Pipelines</span><span class="sep">/</span><span>Data Modelling</span><span class="sep">/</span><span>Kafka</span><span class="sep">/</span><span>Power BI</span><span class="sep">/</span><span>Python</span><span class="sep">/</span><span>SQL</span><span class="sep">/</span><span>Apache Spark</span><span class="sep">/</span><span>dbt</span><span class="sep">/</span><span>AWS</span><span class="sep">/</span><span>Airflow</span><span class="sep">/</span><span>ETL Pipelines</span><span class="sep">/</span><span>Data Modelling</span><span class="sep">/</span><span>Kafka</span><span class="sep">/</span><span>Power BI</span><span class="sep">/</span></div></div>
+<section id="experience" class="section">
+  <div class="container">
+    <div class="section-header reveal"><span class="section-num">01</span><h2>Experience</h2></div>
+    <div class="exp-timeline">
+      <article class="exp-item reveal">
+        <div class="exp-dot"></div>
+        <div class="exp-content">
+          <div class="exp-meta"><span class="exp-date">Aug 2022 — Sep 2024</span><span class="exp-loc"><i class="fas fa-location-dot"></i> Mumbai, India</span></div>
+          <h3>Data Engineer-I <span class="at">@ Ipsos</span></h3>
+          <ul class="exp-list">
+            <li>Designed and maintained ETL pipelines processing <strong>5M+ records</strong> from global market research surveys using Python, SQL, and Apache Spark</li>
+            <li>Implemented <strong>dbt models</strong> to standardise data transformations, improving documentation, testing, and repeatability</li>
+            <li>Automated reporting workflows — reduced manual data preparation time by <strong>40%</strong></li>
+            <li>Built data validation frameworks across <strong>15+ datasets</strong>, reducing downstream errors by <strong>25%</strong></li>
+            <li>Supported migration of on-premise infrastructure to <strong>AWS</strong> (S3, Lambda, EC2)</li>
+            <li>Collaborated with teams across <strong>8 countries</strong> to standardise data collection processes</li>
+            <li>Developed reusable Spark jobs and Python scripts adopted as the team's core toolkit</li>
+          </ul>
+          <div class="exp-tags"><span>Python</span><span>SQL</span><span>Spark</span><span>dbt</span><span>AWS</span><span>Pandas</span></div>
+        </div>
+      </article>
+      <article class="exp-item reveal">
+        <div class="exp-dot"></div>
+        <div class="exp-content">
+          <div class="exp-meta"><span class="exp-date">May 2025 — Present</span><span class="exp-loc"><i class="fas fa-location-dot"></i> Dublin, Ireland</span></div>
+          <h3>Sales Assistant <span class="at">@ Eurospar</span></h3>
+          <ul class="exp-list">
+            <li>Managing inventory and customer operations while completing Master's in Data Analytics</li>
+            <li>Developed communication and problem-solving skills in a fast-paced retail environment</li>
+          </ul>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+<section id="projects" class="section section-alt">
+  <div class="container">
+    <div class="section-header reveal"><span class="section-num">02</span><h2>Projects</h2></div>
+    <div class="projects-grid">
+      <article class="project-card reveal">
+        <div class="project-top"><i class="fas fa-folder-open project-icon"></i><div class="project-links"><a href="https://github.com/nameisrohit/Web_Retail_Data_Warehouse" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a></div></div>
+        <span class="project-label">Data Pipeline</span>
+        <h3>Web Retail Revenue Data Warehouse</h3>
+        <p>End-to-end data warehouse and BI solution for online retail — star-schema design, SSIS ETL orchestration, and Tableau dashboards.</p>
+        <div class="project-footer"><span>SQL Server</span><span>SSIS</span><span>Tableau</span><span>Star Schema</span></div>
+      </article>
+      <article class="project-card reveal">
+        <div class="project-top"><i class="fas fa-folder-open project-icon"></i><div class="project-links"><a href="https://github.com/nameisrohit" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a></div></div>
+        <span class="project-label">Analytics</span>
+        <h3>Customer Churn Insights Dashboard</h3>
+        <p>Modelled customer lifecycle data with dimensional modelling. Built interactive Power BI dashboards tracking churn, retention, and revenue impact.</p>
+        <div class="project-footer"><span>SQL</span><span>Dimensional Modelling</span><span>Power BI</span><span>DAX</span></div>
+      </article>
+      <article class="project-card reveal">
+        <div class="project-top"><i class="fas fa-folder-open project-icon"></i><div class="project-links"><a href="https://github.com/nameisrohit" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a></div></div>
+        <span class="project-label">Automation</span>
+        <h3>Survey Reporting Automation</h3>
+        <p>Automated cleaning, aggregation, and scheduled publishing of survey data — Excel and PDF reports refreshed on a cadence for stakeholders.</p>
+        <div class="project-footer"><span>Python</span><span>Pandas</span><span>Automation</span><span>Excel</span></div>
+      </article>
+    </div>
+  </div>
+</section>
+<section id="skills" class="section">
+  <div class="container">
+    <div class="section-header reveal"><span class="section-num">03</span><h2>Skills</h2></div>
+    <div class="skills-mosaic">
+      <div class="skill-block reveal"><div class="skill-icon"><i class="fas fa-database"></i></div><h3>Data Engineering</h3><p>Apache Spark / PySpark, ETL/ELT Pipelines, dbt, Apache Airflow, Apache Kafka, Data Modelling (Star & Snowflake), Batch & Stream Processing</p></div>
+      <div class="skill-block reveal"><div class="skill-icon"><i class="fas fa-cloud"></i></div><h3>Cloud & Infrastructure</h3><p>AWS (S3, EC2, Lambda, Redshift), Databricks, Git & GitHub, CI/CD, Linux, Shell Scripting, Docker basics</p></div>
+      <div class="skill-block reveal"><div class="skill-icon"><i class="fas fa-terminal"></i></div><h3>Programming</h3><p>Python (Pandas, NumPy, Boto3), SQL (PostgreSQL, MySQL, SQL Server), PySpark, Scala (basic), Java (Core)</p></div>
+      <div class="skill-block reveal"><div class="skill-icon"><i class="fas fa-chart-pie"></i></div><h3>Analytics & Visualisation</h3><p>Power BI, Tableau, Looker Studio, DAX & Power Query, Excel Dashboards, Data Visualisation, A/B Testing</p></div>
+    </div>
+  </div>
+</section>
+<section class="section section-alt">
+  <div class="container">
+    <div class="section-header reveal"><span class="section-num">04</span><h2>Education & Certs</h2></div>
+    <div class="edu-row">
+      <div class="edu-card reveal"><div class="edu-year">2025 — 2026</div><h3>Master's in Data Analytics</h3><p>Dublin Business School</p><span class="edu-detail">Pipeline Architecture, ML, Cloud Computing, Data Governance</span></div>
+      <div class="edu-card reveal"><div class="edu-year">2019 — 2022</div><h3>BSc Computer Science</h3><p>Mumbai University</p><span class="edu-detail">Core CS, Databases, Software Engineering, Java</span></div>
+    </div>
+    <div class="certs reveal">
+      <div class="cert-item"><i class="fab fa-aws"></i> AWS Certified Cloud Practitioner</div>
+      <div class="cert-item"><i class="fab fa-java"></i> Core Java Certification</div>
+      <div class="cert-item"><i class="fas fa-stream"></i> Streaming Pipelines — Apache Kafka</div>
+      <div class="cert-item"><i class="fas fa-chart-line"></i> Career Skills in Data Analytics</div>
+    </div>
+  </div>
+</section>
+<section id="contact" class="section">
+  <div class="container">
+    <div class="section-header reveal"><span class="section-num">05</span><h2>Let's connect</h2></div>
+    <p class="contact-intro reveal">Open to Data Engineer & Data Analyst roles in Dublin and remote. Got a data problem? Let's chat.</p>
+    <div class="contact-grid">
+      <form action="https://formsubmit.co/rohit.yadav.analytics@gmail.com" method="POST" class="contact-form reveal">
+        <input type="hidden" name="_captcha" value="false" />
+        <input type="hidden" name="_subject" value="Portfolio — New Inquiry" />
+        <input type="hidden" name="_template" value="table" />
+        <div class="form-row">
+          <div class="form-group"><label for="name">Name</label><input id="name" name="name" type="text" required placeholder="Your name" /></div>
+          <div class="form-group"><label for="email">Email</label><input id="email" name="email" type="email" required placeholder="you@company.com" /></div>
+        </div>
+        <div class="form-group"><label for="message">Message</label><textarea id="message" name="message" rows="5" required placeholder="Tell me about the role or project..."></textarea></div>
+        <button type="submit" class="btn btn-dark">Send message <i class="fas fa-arrow-right"></i></button>
+      </form>
+      <div class="contact-links reveal">
+        <a href="mailto:rohit.yadav.analytics@gmail.com" class="contact-link-item"><i class="fas fa-envelope"></i><div><strong>Email</strong><span>rohit.yadav.analytics@gmail.com</span></div></a>
+        <a href="https://www.linkedin.com/in/rohit-s-yadav/" target="_blank" class="contact-link-item"><i class="fab fa-linkedin-in"></i><div><strong>LinkedIn</strong><span>linkedin.com/in/rohit-s-yadav</span></div></a>
+        <a href="https://github.com/nameisrohit" target="_blank" class="contact-link-item"><i class="fab fa-github"></i><div><strong>GitHub</strong><span>github.com/nameisrohit</span></div></a>
+        <div class="contact-link-item"><i class="fas fa-location-dot"></i><div><strong>Location</strong><span>Dublin, Ireland</span></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="footer"><div class="container footer-inner"><p>Designed & built by Rohit Yadav &copy; 2026</p><a href="#hero" class="back-top"><i class="fas fa-arrow-up"></i></a></div></footer>
 <script src="assets/js/main.js"></script>
 </body>
 </html>
